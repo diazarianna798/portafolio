@@ -1,0 +1,174 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">);
+
+body{
+	font-family: 'Cutive Mono', monospace;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#contact .mensaje{
+	padding-top: 10px;
+}
+
+#intro{
+	background-color: #01001B;
+}
+
+#intro .logo{
+	padding-left: 117px;
+	padding-top: 200px;
+	padding-bottom: 140px;
+}
+		
+
+
+#about{
+	background-color: #01001B;
+}
+
+#about h1{
+	color: #8FF409;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#about p{
+	color: #8FF409;
+	text-align: center;
+	font-size: 18px;
+}
+
+#services{
+	background-color: #01001B;
+}
+
+#services{
+	color: #8DE73C;
+	text-align: center;
+}
+
+#services i{
+	font-size: 70px;
+	padding-top: 70px;
+	color: #031497;
+}
+
+#services h2{
+	font-size: 30px;
+	padding-top: 25px;
+}
+
+
+#contact{
+	background-color: #01001B;
+}
+
+#contact h1{
+color: #7BDD58;
+padding-bottom: 5px;
+padding-top: 150px;
+}
+
+#contact h2{
+color: #7BDD58;
+font-size: 21px;
+padding-top: 5px;
+padding-bottom: 20px;
+text-align:center;
+}
+
+#contact .formulario{
+	font-family: 'Cutive Mono', monospace;
+	color: #7BDD58;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 16px;	
+}
+
+#contact .datos{
+	background-color: #0C0C58;
+	border-color: #031497;
+}
+
+#nombre {
+	background-color: #01001B;
+	border-color: #031497;
+	color: #031497;
+	width: 400px;
+}
+
+#correo {
+	background-color: #01001B;
+	border-color: #031497;
+	color: #031497;
+	width: 400px;
+}
+	
+#cajatexto{
+	background-color: #01001B;
+	border-color: #031497;
+	color: #031497;
+	
+}
+
+#enviar{
+	background-color: #01001B;
+	border-color: #7BDD58;
+	color: #7BDD58;
+	padding-top: 3px;
+	margin-top: 35px;
+}
+
+#enviar:hover{
+	background-color: #031497;
+	color: #7BDD58;
+}
+#proyectos{
+	height: 40px;
+	align-content: center;
+}
+
+
+	}
+#redes{
+	background-color: #031497;
+}
+
+.primera{
+	height: 400px;
+	width: 275px;
+
+}
+
+#proyectos h1{
+	color: #8FF409;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+
+#redes .icono{
+	color: #031497;
+}
+
+#redes p{
+	color: #031497;
+	font-size: 18px;
+}
